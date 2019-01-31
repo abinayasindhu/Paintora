@@ -37,6 +37,7 @@ class PaintingDataProvider_Local: PaintingDataProvider {
         catch let error as NSError {
             print("Ooops! Something went wrong: \(error)")
         }
+        
         return paintingDataArr
     }
     
